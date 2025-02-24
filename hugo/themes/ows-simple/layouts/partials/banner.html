@@ -1,0 +1,29 @@
+
+			<!-- Banner -->
+      <section id="banner">
+
+        <!--
+            ".inner" is set up as an inline-block so it automatically expands
+            in both directions to fit whatever's inside it. This means it won't
+            automatically wrap lines, so be sure to use line breaks where
+            appropriate (<br />).
+        -->
+        <div class="inner">
+
+            <header>
+              {{- with .Params.banner }}
+                
+                <h2>{{- .title | safeHTML -}}</h2> 
+                {{- .content | safeHTML }}
+                
+              </header>
+              <footer>
+                <ul class="buttons vertical">
+                  <li><a href="{{ .link }}" class="button scrolly">{{ .button_text }}</a></li> 
+                </ul>
+              </footer>
+              {{- end -}}
+        </div>
+
+    </section>
+

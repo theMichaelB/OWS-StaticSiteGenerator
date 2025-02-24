@@ -1,0 +1,88 @@
+{{ define "banner" }}
+
+{{ partial "banner.html" . }}
+{{ end }}
+
+{{ define "section_one" }}
+                <header class="special container">
+                    {{- with .Params.section_one }}
+                    <span class="icon {{ .icon }}"></span>
+                    <h2>{{ .title | safeHTML }}</h2>
+                    {{ .content | safeHTML }}
+                    {{ end }}
+                </header>
+{{ end }}
+{{ define "section_two" }}
+					
+<section class="wrapper style2 container special-alt">
+    <div class="row 50%">
+        <div class="8u 12u(narrower)">
+            <header>
+                {{- with .Params.section_two }}
+                <h2>{{ .title | safeHTML }}</h2>
+            </header>
+                {{- range .content }}
+                <p>{{- . | markdownify -}}</p>
+                {{ end }}
+            <footer>
+                <ul class="buttons">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul>
+            </footer>
+        </div>
+        <div class="4u 12u(narrower) important(narrower)">
+            <ul class="featured-icons">  
+                        <li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>  
+                        <li><span class="icon fa-pencil"><span class="label">Feature 2</span></span></li>  
+                        <li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>  
+                        <li><span class="icon fa-sticky-note"><span class="label">Feature 4</span></span></li>  
+                        <li><span class="icon fa-paragraph"><span class="label">Feature 5</span></span></li>  
+                        <li><span class="icon fa-thumbs-up"><span class="label">Feature 6</span></span></li>
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ define "section_three" }}
+<section class="wrapper style1 container special">
+<div class="row">
+    {{ with .Params.section_three }}
+        {{ range . }}
+        <div class="4u 12u(narrower)">
+            <section>
+                <span class="icon featured {{ .icon }}"></span>
+                <header>
+                    <h3>{{ .title }}</h3>
+                </header>
+                <p>{{ .content }}</p>
+            </section>
+        </div>
+
+        {{ end }}
+    {{ end }}
+    </div>
+        </section>
+{{ end }}
+
+{{ define "section_four" }}
+<section id="cta">
+
+    {{ with .Params.section_four }}
+    <header>
+        <h2>{{- .title -}}</h2>
+        <p>{{- .content -}}</p>
+    </header>
+    <footer>
+        <ul class="buttons">
+            <li><a href="{{ .link }}" class="button special">{{ .button_text }}</a></li>
+        </ul>
+    </footer>
+    {{ end }}
+
+</section>	
+{{ end }}
+{{ define "main" }}
+    <p>This is the homepage content.</p>
+{{ end }}

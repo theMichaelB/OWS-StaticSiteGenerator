@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+-->
+<html>
+	{{ partial "head.html" . }}
+	<body class="{{- .Params.body_class -}}">
+		<div id="page-wrapper">
+			{{ partial "header.html" . }}
+			{{ block "banner" . }}
+			{{ end }}
+			<article id="main">
+			{{ block "section_one" . }}
+			{{ end }}
+			{{ block "section_two" . }}
+			{{ end }}
+			{{ block "section_three" . }}
+			{{ end }}
+			<!-- Main -->
+			</article>
+			{{ block "section_four" . }}
+			{{ end }}
+			{{ partial "socials.html" . }}
+		</div>
+		{{ partial "js.html" . }}
+
+	</body>
+</html>
