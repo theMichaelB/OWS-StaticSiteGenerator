@@ -27,3 +27,4 @@ hugo/public/*
 hugo/resources/*
 .hugo_build.lock
 hugo_stats.json
+hugo/.backup.log
