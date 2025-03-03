@@ -1,0 +1,33 @@
+                                <!-- Sidebar -->
+                                <div class="sidebar">
+                                    <section>
+                                        <header>
+                                            <h3>Sidebar 1</h3>
+                                        </header>
+                                        <ul>  <p>
+                                            {{ range site.Data.characters.characters }}
+                                            <li>
+                                                <a href="/character/{{ .id }}">{{ .name }}</a><br />
+                                            </li>
+                                        {{ end }}
+                                           </p> </ul>
+                                        <footer>
+                                            <ul class="buttons">
+                                                <li><a href="#" class="button small">Learn More</a></li>
+                                            </ul>
+                                        </footer>
+                                    </section>
+
+                                    <section>
+                                        <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                                        <header>
+                                            <h3>Amet Lorem Tempus</h3>
+                                        </header>
+                                        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+                                        <footer>
+                                            <ul class="buttons">
+                                                <li><a href="#" class="button small">Learn More</a></li>
+                                            </ul>
+                                        </footer>
+                                    </section>
+                                </div>

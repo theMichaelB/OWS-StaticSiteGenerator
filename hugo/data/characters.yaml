@@ -1,0 +1,37 @@
+characters:
+  - id: 1001
+    name: Billy "The Butcher" Brisket
+    description: The gruff but skilled town butcher, known for his surprisingly delicate sausage casings.  Always has a smear of blood on his apron.
+  - id: 1002
+    name: Beatrice "Bea" Baker
+    description: The cheerful baker, whose warm bread and even warmer smile are the heart of the town. Secretly a master of throwing knives (for cutting dough, of course).
+  - id: 1003
+    name: Candlemaker Cornelius
+    description: A quiet, meticulous craftsman who creates candles that burn with an unnatural, almost magical, light. Rumored to be able to see the future in the flickering flames.
+  - id: 1004
+    name: Fletcher "Fletch" Arrowood
+    description: The town's bowyer and fletcher. A stoic, solitary figure, more comfortable in the woods than among people.  His arrows always fly true.
+  - id: 1005
+    name: Grace "The Gardener" Greenleaf
+    description: An elderly woman with an uncanny ability to make anything grow. Her garden is a riot of color and life, even in the dead of winter.  Whispers say she talks to the plants.
+  - id: 1006
+    name: Horace "Hammerhand" Smith
+    description: The blacksmith, a giant of a man with hands like iron.  Despite his imposing appearance, he's a gentle soul, known for crafting tiny, intricate metal flowers.
+  - id: 1007
+    name: Isabella "Izzy" Inkwell
+    description: The town scribe and bookkeeper, a sharp-tongued woman with a photographic memory. Knows everyone's secrets (and probably wrote them down somewhere).
+  - id: 1008
+    name: Jasper "The Jester" Jolly
+    description: A traveling entertainer, always ready with a joke or a song. Beneath the cheerful exterior, however, lies a keen observer of human nature.  His laughter can be disarming.
+  - id: 1009
+    name: Katherine "Kitty" Knitter
+    description: A seemingly harmless old woman who knits constantly, producing an endless stream of scarves, sweaters, and mittens. Her needles click with an unsettling rhythm, and her creations sometimes seem to have a life of their own.
+  - id: 1010
+    name: Leonard "The Locksmith" Locklear
+    description: A master of locks and keys, able to open any door and safeguard any secret.  He's a man of few words, but his eyes hold a deep understanding of security and vulnerability.
+  - id: 1011
+    name: Margaret "Maggie" Miller
+    description: The owner of the local mill, a shrewd businesswoman with a reputation for driving a hard bargain.  The rhythmic thumping of the mill is the constant soundtrack of the town.
+  - id: 1012
+    name: Nathaniel "The Navigator" North
+    description: A retired sailor, now the town's cartographer and astronomer.  He spends his nights charting the stars and his days drawing incredibly detailed maps of places he's never been.

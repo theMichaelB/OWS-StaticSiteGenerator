@@ -46,7 +46,7 @@ Whether you're a seasoned writer or a curious reader, Open World Stories invites
 
 Whether you're a seasoned writer or a curious reader, Open World Stories invites you to be a part of something new and exciting. Help us build a new form of storytelling.
 
-**We're currently in an early, experimental phase, focused on building our first world, Oakhaven, with a small group of dedicated founding writers.** This is a chance to get in on the ground floor, directly shape the project's development, and help us refine the tools and processes that will power future worlds.
+**We're currently in an early, experimental phase, focused on building our first world, Fableford, with a small group of dedicated founding writers.** This is a chance to get in on the ground floor, directly shape the project's development, and help us refine the tools and processes that will power future worlds.
 
 ## Be a Founding Writer
 
@@ -54,15 +54,15 @@ Right now, we're looking for writers who are:
 
 *   **Passionate about collaborative storytelling.**
 *   **Excited to experiment and provide feedback.**
-*   **Willing to commit time and effort to building Oakhaven.**
+*   **Willing to commit time and effort to building Fableford.**
 * **Comfortable using Discord/Telegram/Google Workspaces for communication and collaboration.**
 
 The initial onboarding process will involve direct communication with the project team via Discord/Telegram. We'll guide you through the process of creating your character and integrating them into the world. As the project evolves, a more streamlined, automated onboarding system will be developed.
 
-**Ready to help us build Oakhaven?**
+**Ready to help us build Fableford?**
 
 *   [Link to Discord Server Invite]
 *   [Link to Telegram Group Invite]
-*   [Link to "Explore Oakhaven" (optional, if you want readers to explore even at this stage)]
+*   [Link to "Explore Fableford" (optional, if you want readers to explore even at this stage)]
 
 ---

@@ -13,13 +13,13 @@ banner:
         </p>
     
 section_one:
-  title: "Welcome to <strong>Oakhaven</strong><br />Where everyone has a story"
+  title: "Welcome to <strong>Fableford</strong><br />Where everyone has a story"
   content: |
-    <p>Meet the first residents of Oakhaven,
+    <p>Meet the first residents of Fableford,
     a small town brimming with untold stories.<br>
     Their lives are just the beginning of a collaborative narrative, waiting for <em>your</em> contribution.
     Open World Stories starts here.<br>
-    Add your voice, create your character, and help build the world of Oakhaven.  The next chapter is yours to write.</p>
+    Add your voice, create your character, and help build the world of Fableford.  The next chapter is yours to write.</p>
   icon: "fa-book"
 
 section_two:
@@ -29,7 +29,7 @@ section_two:
     - |
       Open World Stories is a living, breathing world shaped by the collective imagination of its writers, one character, one interaction at a time.
     - |
-      Oakhaven is our first shared world. Nine characters have their day one stories written. Come and share in the journey to write day two and beyond.
+      Fableford is our first shared world. Nine characters have their day one stories written. Come and share in the journey to write day two and beyond.
     - |
       Become part of this unique experiment, connect with other writers, and witness the power of collaborative storytelling firsthand. This is the future of narrative.
   button_url: "#"  # Replace with your actual URL
@@ -58,7 +58,7 @@ section_three:
     icon: "fa-trophy"
     title: "Be a Founder"
     content: |
-      Join Oakhaven's founding writers.
+      Join Fableford's founding writers.
       Shape the world, build the tools, and help create a new form of storytelling.
 section_four: 
   title: Ready to help us build a community?
